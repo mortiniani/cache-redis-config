@@ -1,0 +1,159 @@
+/* 
+ * styles.css for cache-redis-config
+ * version 1.0
+ */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+h6 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+code {
+  font-family: 'Monaco', monospace;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+pre code {
+  font-size: 14px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #66cc00;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label small {
+  font-size: 12px;
+  color: #666;
+}
